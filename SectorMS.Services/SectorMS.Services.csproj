@@ -10,6 +10,7 @@
     <ItemGroup>
       <ProjectReference Include="..\SectorMS.Dao.Abstractions\SectorMS.Dao.Abstractions.csproj" />
       <ProjectReference Include="..\SectorMS.Dto\SectorMS.Dto.csproj" />
+      <ProjectReference Include="..\SectorMS.Services.Abstractions\SectorMS.Services.Abstractions.csproj" />
     </ItemGroup>
 
 </Project>

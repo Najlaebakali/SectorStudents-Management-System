@@ -15,3 +15,4 @@ C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.EF\obj\Debug\net8.0\SectorMS.D
 C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.EF\obj\Debug\net8.0\refint\SectorMS.Dao.EF.dll
 C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.EF\obj\Debug\net8.0\SectorMS.Dao.EF.pdb
 C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.EF\obj\Debug\net8.0\ref\SectorMS.Dao.EF.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.EF\obj\Debug\net8.0\SectorMS.Dao.EF.sourcelink.json

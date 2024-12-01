@@ -13,3 +13,4 @@ C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\obj\Debug\net8.0\
 C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\obj\Debug\net8.0\refint\SectorMS.Dao.Abstractions.dll
 C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\obj\Debug\net8.0\SectorMS.Dao.Abstractions.pdb
 C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\obj\Debug\net8.0\ref\SectorMS.Dao.Abstractions.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\obj\Debug\net8.0\SectorMS.Dao.Abstractions.sourcelink.json

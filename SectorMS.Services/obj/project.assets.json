@@ -34,6 +34,19 @@
         "runtime": {
           "bin/placeholder/SectorMS.models.dll": {}
         }
+      },
+      "SectorMS.Services.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "SectorMS.models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SectorMS.Services.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SectorMS.Services.Abstractions.dll": {}
+        }
       }
     }
   },
@@ -52,12 +65,18 @@
       "type": "project",
       "path": "../SectorMS.models/SectorMS.models.csproj",
       "msbuildProject": "../SectorMS.models/SectorMS.models.csproj"
+    },
+    "SectorMS.Services.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../SectorMS.Services.Abstractions/SectorMS.Services.Abstractions.csproj",
+      "msbuildProject": "../SectorMS.Services.Abstractions/SectorMS.Services.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "SectorMS.Dao.Abstractions >= 1.0.0",
-      "SectorMS.Dto >= 1.0.0"
+      "SectorMS.Dto >= 1.0.0",
+      "SectorMS.Services.Abstractions >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -91,6 +110,9 @@
             },
             "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Dto\\SectorMS.Dto.csproj": {
               "projectPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Dto\\SectorMS.Dto.csproj"
+            },
+            "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Services.Abstractions\\SectorMS.Services.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Services.Abstractions\\SectorMS.Services.Abstractions.csproj"
             }
           }
         }

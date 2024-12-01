@@ -9,3 +9,4 @@ C:\Users\babar\RiderProjects\Projet1\SectorMS.models\obj\Debug\net8.0\SectorMS.m
 C:\Users\babar\RiderProjects\Projet1\SectorMS.models\obj\Debug\net8.0\refint\SectorMS.models.dll
 C:\Users\babar\RiderProjects\Projet1\SectorMS.models\obj\Debug\net8.0\SectorMS.models.pdb
 C:\Users\babar\RiderProjects\Projet1\SectorMS.models\obj\Debug\net8.0\ref\SectorMS.models.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.models\obj\Debug\net8.0\SectorMS.models.sourcelink.json
