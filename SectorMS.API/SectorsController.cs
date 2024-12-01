@@ -24,7 +24,7 @@ public class SectorController : ControllerBase  // Changement le nom du contrôl
             return NotFound("No sectors found.");
         }
 
-        return Ok(sectors);  // Retourne les secteurs avec un code HTTP 200
+        return Ok(sectors);  // Retourne les filieres avec un code HTTP 200
     }
     
     [HttpGet("{id}")]
