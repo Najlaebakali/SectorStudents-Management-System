@@ -1,0 +1,11 @@
+C:\Users\babar\RiderProjects\Projet1\SectorMS.models\bin\Debug\net8.0\SectorMS.models.deps.json
+C:\Users\babar\RiderProjects\Projet1\SectorMS.models\bin\Debug\net8.0\SectorMS.models.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.models\bin\Debug\net8.0\SectorMS.models.pdb
+C:\Users\babar\RiderProjects\Projet1\SectorMS.models\obj\Debug\net8.0\SectorMS.models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\babar\RiderProjects\Projet1\SectorMS.models\obj\Debug\net8.0\SectorMS.models.AssemblyInfoInputs.cache
+C:\Users\babar\RiderProjects\Projet1\SectorMS.models\obj\Debug\net8.0\SectorMS.models.AssemblyInfo.cs
+C:\Users\babar\RiderProjects\Projet1\SectorMS.models\obj\Debug\net8.0\SectorMS.models.csproj.CoreCompileInputs.cache
+C:\Users\babar\RiderProjects\Projet1\SectorMS.models\obj\Debug\net8.0\SectorMS.models.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.models\obj\Debug\net8.0\refint\SectorMS.models.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.models\obj\Debug\net8.0\SectorMS.models.pdb
+C:\Users\babar\RiderProjects\Projet1\SectorMS.models\obj\Debug\net8.0\ref\SectorMS.models.dll

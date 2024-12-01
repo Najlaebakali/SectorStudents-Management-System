@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SectorMS.Dao.Abstractions/1.0.0": {
+        "dependencies": {
+          "SectorMS.models": "1.0.0"
+        },
+        "runtime": {
+          "SectorMS.Dao.Abstractions.dll": {}
+        }
+      },
+      "SectorMS.models/1.0.0": {
+        "runtime": {
+          "SectorMS.models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SectorMS.Dao.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SectorMS.models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

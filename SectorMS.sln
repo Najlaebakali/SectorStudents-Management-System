@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SectorMS.models", "SectorMS.models\SectorMS.models.csproj", "{0469F260-B0F5-45AD-9194-33ACFF3B4298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SectorMS.Dao.Abstractions", "SectorMS.Dao.Abstractions\SectorMS.Dao.Abstractions.csproj", "{9FDD933A-3BA3-4311-8DE9-28FF7CE1B9C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SectorMS.Dao.EF", "SectorMS.Dao.EF\SectorMS.Dao.EF.csproj", "{3E412E1A-DBF0-4507-803C-A6DC14745E94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SectorMS.Dto", "SectorMS.Dto\SectorMS.Dto.csproj", "{235FF7C6-C457-450A-A06F-674047F65BB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SectorMS.Services", "SectorMS.Services\SectorMS.Services.csproj", "{F164A2B1-0E6F-4D4A-861A-FD198E9301F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SectorMS.Controllers", "SectorMS.Controllers\SectorMS.Controllers.csproj", "{ABCE111F-5C59-4C77-94D5-38008D405E9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0469F260-B0F5-45AD-9194-33ACFF3B4298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0469F260-B0F5-45AD-9194-33ACFF3B4298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0469F260-B0F5-45AD-9194-33ACFF3B4298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0469F260-B0F5-45AD-9194-33ACFF3B4298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDD933A-3BA3-4311-8DE9-28FF7CE1B9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDD933A-3BA3-4311-8DE9-28FF7CE1B9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDD933A-3BA3-4311-8DE9-28FF7CE1B9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDD933A-3BA3-4311-8DE9-28FF7CE1B9C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E412E1A-DBF0-4507-803C-A6DC14745E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E412E1A-DBF0-4507-803C-A6DC14745E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E412E1A-DBF0-4507-803C-A6DC14745E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E412E1A-DBF0-4507-803C-A6DC14745E94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{235FF7C6-C457-450A-A06F-674047F65BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{235FF7C6-C457-450A-A06F-674047F65BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{235FF7C6-C457-450A-A06F-674047F65BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{235FF7C6-C457-450A-A06F-674047F65BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F164A2B1-0E6F-4D4A-861A-FD198E9301F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F164A2B1-0E6F-4D4A-861A-FD198E9301F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F164A2B1-0E6F-4D4A-861A-FD198E9301F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F164A2B1-0E6F-4D4A-861A-FD198E9301F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCE111F-5C59-4C77-94D5-38008D405E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCE111F-5C59-4C77-94D5-38008D405E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCE111F-5C59-4C77-94D5-38008D405E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCE111F-5C59-4C77-94D5-38008D405E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

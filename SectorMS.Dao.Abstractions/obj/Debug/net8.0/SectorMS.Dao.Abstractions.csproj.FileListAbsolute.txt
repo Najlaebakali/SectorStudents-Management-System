@@ -1,0 +1,15 @@
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\bin\Debug\net8.0\SectorMS.Dao.Abstractions.deps.json
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\bin\Debug\net8.0\SectorMS.Dao.Abstractions.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\bin\Debug\net8.0\SectorMS.Dao.Abstractions.pdb
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\bin\Debug\net8.0\SectorMS.models.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\bin\Debug\net8.0\SectorMS.models.pdb
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\obj\Debug\net8.0\SectorMS.Dao.Abstractions.csproj.AssemblyReference.cache
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\obj\Debug\net8.0\SectorMS.Dao.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\obj\Debug\net8.0\SectorMS.Dao.Abstractions.AssemblyInfoInputs.cache
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\obj\Debug\net8.0\SectorMS.Dao.Abstractions.AssemblyInfo.cs
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\obj\Debug\net8.0\SectorMS.Dao.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\obj\Debug\net8.0\SectorMS.5127CA12.Up2Date
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\obj\Debug\net8.0\SectorMS.Dao.Abstractions.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\obj\Debug\net8.0\refint\SectorMS.Dao.Abstractions.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\obj\Debug\net8.0\SectorMS.Dao.Abstractions.pdb
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dao.Abstractions\obj\Debug\net8.0\ref\SectorMS.Dao.Abstractions.dll
