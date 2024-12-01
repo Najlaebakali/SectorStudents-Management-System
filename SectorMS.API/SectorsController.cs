@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SectorMS.models;
-using SectorMS.Dao.Abstraction;
+using SectorMS.Services.Abstractions;
 
 namespace SectorMS.API;
 
@@ -8,17 +8,29 @@ namespace SectorMS.API;
 [Route("api/[controller]")]
 public class SectorController : ControllerBase  // Changement le nom du contrôleur en anglais
 {
-    private readonly ISectorRepository _sectorRepository;
+    private readonly ISectorService _sectorService;
 
-    public SectorController(ISectorRepository sectorRepository)
+    public SectorController(ISectorService sectorService)
     {
-        _sectorRepository = sectorRepository;
+        _sectorService = sectorService;
+    }
+    
+    [HttpGet]
+    public IActionResult GetAllSectors()
+    {
+        var sectors = _sectorService.GetAllSectors();  // Appel au service pour récupérer tous les secteurs
+        if (sectors == null || sectors.Count == 0)
+        {
+            return NotFound("No sectors found.");
+        }
+
+        return Ok(sectors);  // Retourne les secteurs avec un code HTTP 200
     }
     
     [HttpGet("{id}")]
-    public IActionResult GetFiliere(int id)
+    public IActionResult GetSector(int id)
     {
-        var filiere = _sectorRepository.GetSectorById(id); 
+        var filiere = _sectorService.GetSectorById(id); 
         if (filiere == null)
         {
             return NotFound(new { Message = "!! Sorry couldn't find the sector!!" });
@@ -27,14 +39,14 @@ public class SectorController : ControllerBase  // Changement le nom du contrôl
     }
 
     [HttpPost]
-    public IActionResult PostNewFiliere([FromBody] Sector newFiliere)
+    public IActionResult PostNewSector([FromBody] Sector newSector)
     {
-        if (newFiliere == null)
+        if (newSector == null)
         {
             return BadRequest(new { Message = "Donnees incorrecte!!" });
         }
 
-        _sectorRepository.AddSector(newFiliere);
-        return CreatedAtAction(nameof(GetFiliere), new { id = newFiliere.Id }, newFiliere);
+        _sectorService.AddSector(newSector);
+        return CreatedAtAction(nameof(GetSector), new { id = newSector.Id }, newSector);
     }
 }

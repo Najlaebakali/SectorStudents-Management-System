@@ -11,6 +11,8 @@
     <ItemGroup>
       <ProjectReference Include="..\SectorMS.Dao.Abstractions\SectorMS.Dao.Abstractions.csproj" />
       <ProjectReference Include="..\SectorMS.Dao.EF\SectorMS.Dao.EF.csproj" />
+      <ProjectReference Include="..\SectorMS.Services.Abstractions\SectorMS.Services.Abstractions.csproj" />
+      <ProjectReference Include="..\SectorMS.Services\SectorMS.Services.csproj" />
     </ItemGroup>
 
     <ItemGroup>

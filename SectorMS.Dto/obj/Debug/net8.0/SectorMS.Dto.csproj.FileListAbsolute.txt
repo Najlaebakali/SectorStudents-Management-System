@@ -1,0 +1,12 @@
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dto\bin\Debug\net8.0\SectorMS.Dto.deps.json
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dto\bin\Debug\net8.0\SectorMS.Dto.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dto\bin\Debug\net8.0\SectorMS.Dto.pdb
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dto\obj\Debug\net8.0\SectorMS.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dto\obj\Debug\net8.0\SectorMS.Dto.AssemblyInfoInputs.cache
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dto\obj\Debug\net8.0\SectorMS.Dto.AssemblyInfo.cs
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dto\obj\Debug\net8.0\SectorMS.Dto.csproj.CoreCompileInputs.cache
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dto\obj\Debug\net8.0\SectorMS.Dto.sourcelink.json
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dto\obj\Debug\net8.0\SectorMS.Dto.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dto\obj\Debug\net8.0\refint\SectorMS.Dto.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dto\obj\Debug\net8.0\SectorMS.Dto.pdb
+C:\Users\babar\RiderProjects\Projet1\SectorMS.Dto\obj\Debug\net8.0\ref\SectorMS.Dto.dll

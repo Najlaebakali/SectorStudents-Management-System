@@ -34,3 +34,9 @@ C:\Users\babar\RiderProjects\Projet1\SectorMS.API\obj\Debug\net8.0\refint\Sector
 C:\Users\babar\RiderProjects\Projet1\SectorMS.API\obj\Debug\net8.0\SectorMS.API.pdb
 C:\Users\babar\RiderProjects\Projet1\SectorMS.API\obj\Debug\net8.0\SectorMS.API.genruntimeconfig.cache
 C:\Users\babar\RiderProjects\Projet1\SectorMS.API\obj\Debug\net8.0\ref\SectorMS.API.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.API\bin\Debug\net8.0\SectorMS.Services.Abstractions.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.API\bin\Debug\net8.0\SectorMS.Services.Abstractions.pdb
+C:\Users\babar\RiderProjects\Projet1\SectorMS.API\bin\Debug\net8.0\SectorMS.Dto.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.API\bin\Debug\net8.0\SectorMS.Dto.pdb
+C:\Users\babar\RiderProjects\Projet1\SectorMS.API\bin\Debug\net8.0\SectorMS.Services.dll
+C:\Users\babar\RiderProjects\Projet1\SectorMS.API\bin\Debug\net8.0\SectorMS.Services.pdb

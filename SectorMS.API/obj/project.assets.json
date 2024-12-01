@@ -335,6 +335,16 @@
           "bin/placeholder/SectorMS.Dao.EF.dll": {}
         }
       },
+      "SectorMS.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SectorMS.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SectorMS.Dto.dll": {}
+        }
+      },
       "SectorMS.models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -343,6 +353,35 @@
         },
         "runtime": {
           "bin/placeholder/SectorMS.models.dll": {}
+        }
+      },
+      "SectorMS.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "SectorMS.Dao.Abstractions": "1.0.0",
+          "SectorMS.Dto": "1.0.0",
+          "SectorMS.Services.Abstractions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SectorMS.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SectorMS.Services.dll": {}
+        }
+      },
+      "SectorMS.Services.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "SectorMS.Dto": "1.0.0",
+          "SectorMS.models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SectorMS.Services.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SectorMS.Services.Abstractions.dll": {}
         }
       }
     }
@@ -1056,10 +1095,25 @@
       "path": "../SectorMS.Dao.EF/SectorMS.Dao.EF.csproj",
       "msbuildProject": "../SectorMS.Dao.EF/SectorMS.Dao.EF.csproj"
     },
+    "SectorMS.Dto/1.0.0": {
+      "type": "project",
+      "path": "../SectorMS.Dto/SectorMS.Dto.csproj",
+      "msbuildProject": "../SectorMS.Dto/SectorMS.Dto.csproj"
+    },
     "SectorMS.models/1.0.0": {
       "type": "project",
       "path": "../SectorMS.models/SectorMS.models.csproj",
       "msbuildProject": "../SectorMS.models/SectorMS.models.csproj"
+    },
+    "SectorMS.Services/1.0.0": {
+      "type": "project",
+      "path": "../SectorMS.Services/SectorMS.Services.csproj",
+      "msbuildProject": "../SectorMS.Services/SectorMS.Services.csproj"
+    },
+    "SectorMS.Services.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../SectorMS.Services.Abstractions/SectorMS.Services.Abstractions.csproj",
+      "msbuildProject": "../SectorMS.Services.Abstractions/SectorMS.Services.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1067,6 +1121,8 @@
       "Microsoft.AspNetCore.OpenApi >= 8.0.0",
       "SectorMS.Dao.Abstractions >= 1.0.0",
       "SectorMS.Dao.EF >= 1.0.0",
+      "SectorMS.Services >= 1.0.0",
+      "SectorMS.Services.Abstractions >= 1.0.0",
       "Swashbuckle.AspNetCore >= 7.1.0"
     ]
   },
@@ -1101,6 +1157,12 @@
             },
             "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Dao.EF\\SectorMS.Dao.EF.csproj": {
               "projectPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Dao.EF\\SectorMS.Dao.EF.csproj"
+            },
+            "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Services.Abstractions\\SectorMS.Services.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Services.Abstractions\\SectorMS.Services.Abstractions.csproj"
+            },
+            "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Services\\SectorMS.Services.csproj": {
+              "projectPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Services\\SectorMS.Services.csproj"
             }
           }
         }

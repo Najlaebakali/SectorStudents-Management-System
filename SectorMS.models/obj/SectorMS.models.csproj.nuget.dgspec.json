@@ -13,6 +13,7 @@
         "packagesPath": "C:\\Users\\babar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.models\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\babar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],

@@ -13,6 +13,7 @@
         "packagesPath": "C:\\Users\\babar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Dao.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\babar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -75,6 +76,7 @@
         "packagesPath": "C:\\Users\\babar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Dto\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\babar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -133,6 +135,7 @@
         "packagesPath": "C:\\Users\\babar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.models\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\babar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -191,6 +194,7 @@
         "packagesPath": "C:\\Users\\babar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Services.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\babar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -204,6 +208,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Dto\\SectorMS.Dto.csproj": {
+                "projectPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Dto\\SectorMS.Dto.csproj"
+              },
               "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.models\\SectorMS.models.csproj": {
                 "projectPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.models\\SectorMS.models.csproj"
               }
@@ -253,6 +260,7 @@
         "packagesPath": "C:\\Users\\babar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Services\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\babar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],

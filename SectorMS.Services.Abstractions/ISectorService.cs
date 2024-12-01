@@ -1,10 +1,11 @@
-﻿using SectorMS.models;
+﻿using SectorMS.Dto;
+using SectorMS.models;
 
 namespace SectorMS.Services.Abstractions;
 
 public interface ISectorService
 {
-    IReadOnlyCollection<Sector> GetAllSectors();  
+    IReadOnlyCollection<SectorDTO> GetAllSectors(); 
     Sector GetSectorById(int id);
     void AddSector(Sector sector);
     void UpdateSector(Sector sector);

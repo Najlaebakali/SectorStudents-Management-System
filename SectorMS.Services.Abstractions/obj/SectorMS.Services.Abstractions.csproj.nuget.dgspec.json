@@ -4,6 +4,65 @@
     "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Services.Abstractions\\SectorMS.Services.Abstractions.csproj": {}
   },
   "projects": {
+    "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Dto\\SectorMS.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Dto\\SectorMS.Dto.csproj",
+        "projectName": "SectorMS.Dto",
+        "projectPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Dto\\SectorMS.Dto.csproj",
+        "packagesPath": "C:\\Users\\babar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\babar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.models\\SectorMS.models.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -13,6 +72,7 @@
         "packagesPath": "C:\\Users\\babar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.models\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\babar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -71,6 +131,7 @@
         "packagesPath": "C:\\Users\\babar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Services.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\babar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -84,6 +145,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Dto\\SectorMS.Dto.csproj": {
+                "projectPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.Dto\\SectorMS.Dto.csproj"
+              },
               "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.models\\SectorMS.models.csproj": {
                 "projectPath": "C:\\Users\\babar\\RiderProjects\\Projet1\\SectorMS.models\\SectorMS.models.csproj"
               }

@@ -4,6 +4,8 @@ using Microsoft.Extensions.Hosting;
 using SectorMS.Dao.Abstraction;
 using SectorMS.Dao.EF.Sectors;
 using SectorMS.Dao.EF.Students;
+using SectorMS.Services;
+using SectorMS.Services.Abstractions;
 
 public class Program
 {
@@ -16,7 +18,9 @@ public class Program
         builder.Services.AddScoped<ISectorRepository, SectorsRepository>(); // Injection de dépendance pour le repository
         builder.Services.AddScoped<IStudentRepository, StudentsRepository>(); // Ajouter l'injection de dépendance pour les étudiants
 
-       
+        // Ajouter ISectorService avec son implémentation SectorService
+        builder.Services.AddScoped<ISectorService, SectorService>(); // Enregistrement du service ISectorService
+
         // Add Swagger to the project
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();

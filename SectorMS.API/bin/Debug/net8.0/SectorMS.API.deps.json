@@ -11,6 +11,8 @@
           "Microsoft.AspNetCore.OpenApi": "8.0.0",
           "SectorMS.Dao.Abstractions": "1.0.0",
           "SectorMS.Dao.EF": "1.0.0",
+          "SectorMS.Services": "1.0.0",
+          "SectorMS.Services.Abstractions": "1.0.0",
           "Swashbuckle.AspNetCore": "7.1.0"
         },
         "runtime": {
@@ -197,9 +199,42 @@
           }
         }
       },
+      "SectorMS.Dto/1.0.0": {
+        "runtime": {
+          "SectorMS.Dto.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "SectorMS.models/1.0.0": {
         "runtime": {
           "SectorMS.models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SectorMS.Services/1.0.0": {
+        "dependencies": {
+          "SectorMS.Dao.Abstractions": "1.0.0",
+          "SectorMS.Dto": "1.0.0",
+          "SectorMS.Services.Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "SectorMS.Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SectorMS.Services.Abstractions/1.0.0": {
+        "dependencies": {
+          "SectorMS.Dto": "1.0.0",
+          "SectorMS.models": "1.0.0"
+        },
+        "runtime": {
+          "SectorMS.Services.Abstractions.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -349,7 +384,22 @@
       "serviceable": false,
       "sha512": ""
     },
+    "SectorMS.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "SectorMS.models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SectorMS.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SectorMS.Services.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
